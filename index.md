@@ -1,4 +1,4 @@
-## 麓贸脢媒戮脻+脭脝+脰脟脛脺 聽姹夊瓧
+## 汉字 大数据
 
 You can use the [editor on GitHub](https://github.com/zhongjinkai/bigCloudAI/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
