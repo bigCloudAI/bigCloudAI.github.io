@@ -1,6 +1,6 @@
 [我的博客](https://bigcloudai.github.io/weblog)
 
-[hadoop笔记](https://bigcloudai.github.io/weblog/hadoop.html)
+[hadoop笔记](https://bigcloudai.github.io/weblog/hadoop/hadoop.html)
 
  
 ## welcome here
