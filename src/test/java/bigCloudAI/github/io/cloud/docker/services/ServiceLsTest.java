@@ -1,21 +1,23 @@
+package bigCloudAI.github.io.cloud.docker.services;
 
-package bigCloudAI.github.io.cloud.dservice;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import bigCloudAI.github.io.cloud.dservice.DHostSer;
+import net.sf.json.JSONArray;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SerServiceTest {
+public class ServiceLsTest {
+
 	@Autowired
-	DHostSer serService;
+	ServiceLs serviceLs;
 	
 	@Test
-	public void createService(){
-		serService.testJson();
+	public void test() {
+		JSONArray s = serviceLs.ls().send("192.168.80.200:2375");
+		System.out.println(s);
 	}
 }
